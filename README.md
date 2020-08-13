@@ -8,4 +8,4 @@ Here is an example command:
 
 ./compute_gene_transcripts_length.sh -g gene_id -t transcript_id -c 8 -f annotation.gtf
 
-Depending on how many threads you use ( -c, --threads ), this could take several hours to run and will output two files, a transcript length file and a mean transcript length file for each gene. Ensure that your gene lengths table has the same gene order as your gene expression table before instantiating a zigzag object.
+Depending on how many threads you use ( -c, --threads ), this could take several hours to run. The script will output two files, a transcript length file and a mean transcript length file for each gene. Ensure that your gene lengths table has the same gene order as your gene expression table before instantiating a zigzag object.
